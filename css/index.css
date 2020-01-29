@@ -33,7 +33,7 @@
 
 article.duck {
   width: 100%;
-  background-color: #ffffff;
+  background: #ffffff;
   margin: 0 auto;
   max-width: 1322px;
 }
@@ -44,5 +44,5 @@ div.duck__wrap {
 
 section.hero {
   display: flex;
-  background-color: #e1dccf;
+  background: #e1dccf;
 }
