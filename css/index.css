@@ -43,6 +43,76 @@ div.duck__wrap {
 }
 
 section.hero {
-  display: flex;
   background: #e1dccf;
+}
+
+div.duck__row {
+  display: flex;
+}
+
+div.duck__home {
+  margin-left: 168px;
+  margin-top: 42px;
+
+  opacity: 0.29;
+  font-family: WorkSans;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(56, 68, 100, 0.29);
+}
+
+div.duck__menu {
+  margin-left: 5%;
+  margin-top: 43px;
+
+  font-family: WorkSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: justify;
+  width: 50%;
+}
+
+span.menu__col {
+  width: 20%;
+  padding-right: 5%;
+}
+
+a:link {
+  font-family: WorkSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #6d6d6d;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid  #384464;
+  color: #384464;
+}
+
+div.duck__hamburger {
+  margin-top: 44px;
+  margin-left: 10%;
+}
+
+div.hamburger__line {
+  width: 29px;
+  height: 2px;
+  border-radius: 0.5px;
+  background-color: #6d6d6d;
+  margin-bottom: 6px;
 }
