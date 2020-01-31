@@ -31,28 +31,22 @@
   border: 2px red solid;
 }
 
-article.duck {
+header.site__header {
+  max-width: 1322px;
   width: 100%;
   background: #ffffff;
   margin: 0 auto;
-  max-width: 1322px;
 }
 
-div.duck__wrap {
-  margin-left: 22px;
-}
-
-section.hero {
+div.container {
   background: #e1dccf;
-}
-
-div.duck__row {
   display: flex;
 }
 
 div.duck__home {
-  margin-left: 13%;
+  margin-left: 168px;
   margin-top: 42px;
+  margin-bottom: 57px;
 
   opacity: 0.29;
   font-family: WorkSans;
@@ -67,9 +61,6 @@ div.duck__home {
 }
 
 div.duck__menu {
-  margin-left: 206px;
-  margin-top: 43px;
-
   font-family: WorkSans;
   font-size: 18px;
   font-weight: normal;
@@ -78,14 +69,10 @@ div.duck__menu {
   line-height: 1.11;
   letter-spacing: normal;
   text-align: justify;
-
-  max-width: 591px;
-  width: 50%;
 }
 
 span.menu__col {
-  width: 15%;
-  padding-right: 5%;
+
 }
 
 a:link {
@@ -107,7 +94,7 @@ a:hover {
 }
 
 div.duck__hamburger {
-  margin-top: 44px;
+
 }
 
 div.hamburger__line {
@@ -118,13 +105,36 @@ div.hamburger__line {
   margin-bottom: 6px;
 }
 
+article.duck {
+  width: 100%;
+  background: #ffffff;
+  margin: 0 auto;
+  max-width: 1322px;
+}
+
+div.duck__wrap {
+  margin-left: 22px;
+}
+
+section.hero {
+  background: #e1dccf;
+}
+
+div.duck__row {
+  display: flex;
+}
+
+
 div.duck__leftimg {
   margin-left: -22px;
+  max-width: 169px;
+  max-height: 578px;
 }
 
 div.duck__info {
     max-width: 512px;
     margin-left: 16px;
+    padding-top: 50px;
 }
 
 h1.duck_heading {
