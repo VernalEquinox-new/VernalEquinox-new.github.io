@@ -31,23 +31,38 @@
   border: 2px red solid;
 }
 
+.bgcolor {
+  background: #e1dccf;
+
+}
+
+div.header__top {
+  max-height: 116px;
+  height: 100%;
+  padding-top: 42px;
+  padding-bottom: 57px;
+}
+
 header.site__header {
   max-width: 1322px;
   width: 100%;
   background: #ffffff;
   margin: 0 auto;
+
 }
 
 div.container {
-  background: #e1dccf;
+  width: 100%;
+  margin-left: 22px;
+  max-width: 1300px;
+}
+
+div.row {
   display: flex;
+  justify-content: space-around;
 }
 
 div.duck__home {
-  margin-left: 168px;
-  margin-top: 42px;
-  margin-bottom: 57px;
-
   opacity: 0.29;
   font-family: WorkSans;
   font-size: 22px;
@@ -69,10 +84,12 @@ div.duck__menu {
   line-height: 1.11;
   letter-spacing: normal;
   text-align: justify;
-}
 
-span.menu__col {
+  max-width: 653px;
+  width: 100%;
 
+  display: flex;
+  justify-content: space-around;
 }
 
 a:link {
@@ -93,10 +110,6 @@ a:hover {
   color: #384464;
 }
 
-div.duck__hamburger {
-
-}
-
 div.hamburger__line {
   width: 29px;
   height: 2px;
@@ -112,10 +125,6 @@ article.duck {
   max-width: 1322px;
 }
 
-div.duck__wrap {
-  margin-left: 22px;
-}
-
 section.hero {
   background: #e1dccf;
 }
@@ -124,20 +133,16 @@ div.duck__row {
   display: flex;
 }
 
-
 div.duck__leftimg {
   margin-left: -22px;
-  max-width: 169px;
-  max-height: 578px;
 }
 
 div.duck__info {
     max-width: 512px;
-    margin-left: 16px;
-    padding-top: 50px;
+    width: 100%;
 }
 
-h1.duck_heading {
+h1.duck__heading {
   font-family: DroidSerif;
   font-size: 60px;
   font-weight: bold;
@@ -159,4 +164,39 @@ p.duck__paragraph {
   letter-spacing: normal;
   text-align: left;
   color: rgba(44, 44, 44, 0.8);
+}
+
+button.duck__btn{
+  width: 200px;
+  height: 58px;
+  border-radius: 28px;
+  box-shadow: 0px 5px 5px 0 rgba(1, 2, 2, 0.2);
+  background-color: #c38b70;
+}
+
+span.duck__btntext {
+  width: 99px;
+  height: 14px;
+  font-family: WorkSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+div.duck__centerimg {
+  max-width: 569px;
+  max-height: 569px;
+  position: relative; 
+  z-index: 2;
+}
+
+div.duck__rightimg {
+  float: right;
+  position: relative;
+  z-index: 3;
 }
