@@ -31,38 +31,32 @@
   border: 2px red solid;
 }
 
-.bgcolor {
-  background: #e1dccf;
-
+header.site__header {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-div.header__top {
-  max-height: 116px;
-  height: 100%;
+.bg__color {
+  background-color: #e1dccf;
+}
+.header__height {
   padding-top: 42px;
   padding-bottom: 57px;
 }
 
-header.site__header {
-  max-width: 1322px;
-  width: 100%;
-  background: #ffffff;
-  margin: 0 auto;
-
-}
-
 div.container {
+  max-width: 964px;
   width: 100%;
-  margin-left: 22px;
-  max-width: 1300px;
+  margin: 0 auto;
 }
 
 div.row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-div.duck__home {
+div.site__home {
   opacity: 0.29;
   font-family: WorkSans;
   font-size: 22px;
@@ -75,7 +69,15 @@ div.duck__home {
   color: rgba(56, 68, 100, 0.29);
 }
 
-div.duck__menu {
+div.hamburger__line {
+  width: 29px;
+  height: 2px;
+  border-radius: 0.5px;
+  background-color: #6d6d6d;
+  margin-bottom: 6px;
+}
+
+div.header__menu {
   font-family: WorkSans;
   font-size: 18px;
   font-weight: normal;
@@ -110,36 +112,23 @@ a:hover {
   color: #384464;
 }
 
-div.hamburger__line {
-  width: 29px;
-  height: 2px;
-  border-radius: 0.5px;
-  background-color: #6d6d6d;
-  margin-bottom: 6px;
-}
-
 article.duck {
   width: 100%;
   background: #ffffff;
   margin: 0 auto;
-  max-width: 1322px;
+  max-width: 1300px;
+  overflow: hidden;
 }
 
 section.hero {
-  background: #e1dccf;
-}
-
-div.duck__row {
-  display: flex;
-}
-
-div.duck__leftimg {
-  margin-left: -22px;
+  padding-bottom: 59px;
+  background:  url('../img/duck1.png') no-repeat,
+             url('../img/duck3.png') no-repeat 100% 0;;
+  background-color:#e1dccf;
 }
 
 div.duck__info {
-    max-width: 512px;
-    width: 100%;
+  width: 55%;
 }
 
 h1.duck__heading {
@@ -189,14 +178,15 @@ span.duck__btntext {
 }
 
 div.duck__centerimg {
-  max-width: 569px;
-  max-height: 569px;
-  position: relative; 
-  z-index: 2;
+  width: 35%;
 }
 
-div.duck__rightimg {
-  float: right;
+img.duck__center {
   position: relative;
   z-index: 3;
+}
+img.duck__shadow {
+  position: relative;
+  left: -25%;
+  top: -8%;
 }
