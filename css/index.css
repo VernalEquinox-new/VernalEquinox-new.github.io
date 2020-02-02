@@ -31,6 +31,10 @@
   border: 2px red solid;
 }
 
+body {
+  margin: 0px;
+}
+
 header.site__header {
   width: 100%;
   max-width: 1300px;
@@ -61,10 +65,7 @@ div.site__home {
   font-family: WorkSans;
   font-size: 22px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.09;
-  letter-spacing: normal;
   text-align: right;
   color: rgba(56, 68, 100, 0.29);
 }
@@ -80,9 +81,6 @@ div.hamburger__line {
 div.header__menu {
   font-family: WorkSans;
   font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.11;
   letter-spacing: normal;
   text-align: justify;
@@ -92,14 +90,13 @@ div.header__menu {
 
   display: flex;
   justify-content: space-around;
+
+  align-items: center;
 }
 
 a:link {
   font-family: WorkSans;
   font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.11;
   letter-spacing: normal;
   text-align: justify;
@@ -129,30 +126,33 @@ section.hero {
 
 div.duck__info {
   width: 55%;
+  align-items: center;
 }
 
 h1.duck__heading {
   font-family: DroidSerif;
   font-size: 60px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.25;
-  letter-spacing: normal;
   text-align: left;
   color: #374464;
+
+  margin: 0 auto;
+  padding-top: 110px;
+  padding-bottom: 49px;
 }
 
 p.duck__paragraph {
+  opacity: 0.8;
   font-family: OpenSans;
   font-size: 16px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.63;
-  letter-spacing: normal;
   text-align: left;
   color: rgba(44, 44, 44, 0.8);
+  margin: 0 auto;
+
+  padding-bottom: 41px;
 }
 
 button.duck__btn{
@@ -164,15 +164,10 @@ button.duck__btn{
 }
 
 span.duck__btntext {
-  width: 99px;
-  height: 14px;
   font-family: WorkSans;
   font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.11;
-  letter-spacing: normal;
   text-align: right;
   color: #ffffff;
 }
