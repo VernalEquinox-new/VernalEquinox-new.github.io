@@ -190,3 +190,7 @@ img.duck__shadow {
   left: -25%;
   top: -8%;
 }
+
+div.vertical__menu {
+  display: none;
+}

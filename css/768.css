@@ -25,3 +25,28 @@
   div.header__menu a {
     display: none;
   }
+
+  div.vertical__menu a:link {
+    display: flex;
+    flex-direction: column;
+
+    font-family: WorkSans;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #6d6d6d;
+    text-decoration: none;
+
+    padding: 10px;
+  }
+
+  div.vertical__menu a:hover {
+    border-bottom: 2px solid  #384464;
+    color: #384464;
+  }
+
+
+  span.hamburger:focus div.vertical__menu {
+    display: block;
+}
