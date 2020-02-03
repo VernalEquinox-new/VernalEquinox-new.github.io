@@ -4,7 +4,7 @@
     overflow: hidden;
   }
   section {
-    overflow:hidden;
+    overflow: hidden;
   }
   section.hero div.container div.row {
     flex-flow: column;
@@ -18,6 +18,7 @@
   }
   .duck__centerimg {
     order: -1;
+    padding-top: 50px;
   }
 }
 
@@ -28,13 +29,13 @@
   div.header__menu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 
   div.menu__wrap{
     position: absolute;
     visibility: hidden;
+    padding-bottom: 10px;
+    top: 65px;
   }
 
 
