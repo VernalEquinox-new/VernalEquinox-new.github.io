@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
 
+  header {
+    overflow: hidden;
+  }
   section {
     overflow:hidden;
   }
@@ -22,11 +25,21 @@
     display: none;
   }
 
-  div.menu__wrap{
-    display: none;
+  div.header__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
+  div.menu__wrap{
+    position: absolute;
+    visibility: hidden;
+  }
+
+
   span.hamburger:focus + div.menu__wrap {
+    visibility: visible;
     display: flex;
     flex-direction: column;
 }
