@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .hero {
+    background: none;
+  }
+  .container {
+    width: 33%;
+  }
+  .row {
+    flex-flow: column wrap;
+  }
+}

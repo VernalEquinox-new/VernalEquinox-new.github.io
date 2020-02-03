@@ -26,6 +26,7 @@
   font-style: normal;
 }
 
+
 /*helper class */
 .duck__border {
   border: 2px red solid;
@@ -53,6 +54,9 @@ div.container {
   max-width: 964px;
   width: 100%;
   margin: 0 auto;
+
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 div.row {
