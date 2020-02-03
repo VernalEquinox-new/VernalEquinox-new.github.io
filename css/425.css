@@ -2,4 +2,7 @@
   .duck__centerimg {
     display: none;
   }
+  div.container {
+    padding: 0;
+  }
 }
