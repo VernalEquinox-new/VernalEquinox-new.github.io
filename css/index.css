@@ -98,6 +98,14 @@ div.header__menu {
   align-items: center;
 }
 
+div.menu__wrap {
+  order: -1;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
 a:link {
   font-family: WorkSans;
   font-size: 18px;
@@ -189,8 +197,4 @@ img.duck__shadow {
   position: relative;
   left: -25%;
   top: -8%;
-}
-
-div.vertical__menu {
-  display: none;
 }
