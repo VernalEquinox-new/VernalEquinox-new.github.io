@@ -1,11 +1,17 @@
 @media (max-width: 768px) {
-  .hero {
-    background: none;
+
+  div.container {
+    width: 50%;
   }
-  .container {
-    width: 33%;
+  div.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
   }
-  .row {
-    flex-flow: column wrap;
+
+  h1.duck__heading {
+      font-size: 30px;
+      text-align: center;
   }
 }

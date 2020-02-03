@@ -165,6 +165,7 @@ button.duck__btn{
   border-radius: 28px;
   box-shadow: 0px 5px 5px 0 rgba(1, 2, 2, 0.2);
   background-color: #c38b70;
+  border: none;
 }
 
 span.duck__btntext {
