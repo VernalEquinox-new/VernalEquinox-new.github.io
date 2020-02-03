@@ -1,17 +1,27 @@
 @media (max-width: 768px) {
 
-  div.container {
-    width: 50%;
+  section {
+    overflow:hidden;
   }
-  div.row {
-    display: flex;
-    flex-direction: column;
+  section.hero div.container div.row {
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
-
   }
 
   h1.duck__heading {
       font-size: 30px;
       text-align: center;
   }
+  .duck__centerimg {
+    order: -1;
+  }
 }
+
+  img.duck__shadow {
+    display: none;
+  }
+
+  div.header__menu a {
+    display: none;
+  }
