@@ -4,6 +4,11 @@
     overflow: hidden;
 
   }
+
+  header div.container div.row {
+    padding-left: 32px;
+  }
+
   section {
     overflow: hidden;
   }
@@ -62,11 +67,32 @@
     flex-direction: column;
     align-items: flex-end;
     padding-right: 4px;
+
+    padding: 88px 48px 48px;
+    background-color: #e1dccf;
+    box-sizing: border-box;
+
+    width: 320px;
+    transition: all .3s;
+    transform: translateX(100%);
+    opacity: 0;
   }
 
+  .menu__wrap > a {
+      line-height: 2;
+      transition: all .3s;
+      border-bottom: 2px solid transparent;
+  }
 
-  span.hamburger:focus + div.menu__wrap {
+  .menu__wrap > a:hover {
+    border-color: #384464;
+  }
+
+  button.hamburger:focus + div.menu__wrap {
     visibility: visible;
     display: flex;
     flex-direction: column;
+
+    transform: none;
+    opacity: 1;
 }

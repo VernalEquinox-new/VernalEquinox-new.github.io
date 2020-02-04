@@ -74,6 +74,16 @@ div.site__home {
   color: rgba(56, 68, 100, 0.29);
 }
 
+button.hamburger {
+  background: none;
+  border: none;
+  outline: none;
+
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
 div.hamburger__line {
   width: 29px;
   height: 2px;
@@ -104,7 +114,6 @@ div.menu__wrap {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-
 }
 
 a:link {
