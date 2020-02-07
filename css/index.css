@@ -139,6 +139,10 @@ article.duck {
   overflow: hidden;
 }
 
+section {
+  overflow: hidden;
+}
+
 section.hero {
   padding-bottom: 59px;
   background:  url('../img/duck1.png') no-repeat,
@@ -207,4 +211,96 @@ img.duck__shadow {
   position: relative;
   left: -25%;
   top: -8%;
+}
+
+section.duck__white {
+  background:  url('../img/egg1.png') no-repeat 0% 0%,
+               url("../img/Product.png") no-repeat 50% 0,7%,
+             url('../img/duck4.png') no-repeat 100% 15%;
+  padding-bottom: 160px;
+}
+
+div.duck__graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+div.duck__graphimg {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+img.duck__line {
+  max-width: 904px;
+}
+
+div.duck__productive {
+  font-family: WorkSans;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 0.77;
+  text-align: center;
+  color: #636363;
+  position: relative;
+  top: 10%;
+}
+
+div.duck__pictures {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 0 0 5%;
+}
+div.duck__gooseimg {
+  position: relative;
+  left: -5%;
+
+  padding-top: 36px;
+}
+
+div.duck__textblock {
+  width: 48%;
+  margin-top: 87px;
+}
+
+h1.duck__title {
+  font-family: WorkSans;
+  font-size: 63px;
+  font-weight: bold;
+  line-height: 0.32;
+  text-align: left;
+  color: #384464;
+
+  margin-bottom: 5%;
+}
+
+p.duck__text {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: #636363;
+}
+
+div.duck__crested {
+  background: url(../img/01bg.png) no-repeat 0% 0%;
+}
+
+div.duck__muscovy {
+  background: url(../img/02bg.png) no-repeat 0% 0%;
+}
+
+div.duck__orpington {
+  background: url(../img/03bg.png) no-repeat 0% 0%;
+}
+
+div.duck__rouen {
+  background: url(../img/04bg.png) no-repeat 0% 0%;
 }
