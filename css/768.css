@@ -21,7 +21,7 @@
   }
 
   div.menu__wrap{
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     top: 65px;
     display: flex;
@@ -29,7 +29,7 @@
     align-items: flex-end;
     padding-right: 4px;
 
-    padding: 8px 48px 48px;
+    padding: 8px 48px 8px;
     background-color: #e1dccf;
     box-sizing: border-box;
 
