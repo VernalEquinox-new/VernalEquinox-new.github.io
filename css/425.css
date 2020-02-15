@@ -19,7 +19,8 @@
 
   section.duck__white {
     padding: 8px 8px 160px 8px;
-    background: url('../img/duck4.png') no-repeat 100% 50%;
+    background: url('../img/duck4.png') no-repeat 100% 50%,
+                url('../img/egg1.png') no-repeat 0% 0%,
   }
 
   section.duck__white div.container div.row {
@@ -52,4 +53,35 @@
     font-size: 50px;
   }
 
+}
+
+section.duck__tan div.container div.row {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.duck___duck6img {
+  order: -1;
+}
+
+div.duck__subscribe p {
+  text-align: center;
+}
+
+div.duck__inputbox {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+input.duck__input {
+  font-size: 12px;
+  width: 70%;
+}
+
+button.duck__plane {
+  position: relative;
+  top: -1px;
 }
