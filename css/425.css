@@ -83,5 +83,23 @@ input.duck__input {
 
 button.duck__plane {
   position: relative;
-  top: -1px;
+  top: 0px;
+}
+
+section.duck__fin div.row {
+  flex-direction: column;
+  align-items: center;
+}
+
+div.duck__25 {
+  display: none;
+}
+
+div.footer__duckspace {
+  font-size: 8px;
+  text-align: center;
+}
+
+div.footer div.row div.footer__menu a:link {
+  font-size: 8px;
 }

@@ -108,10 +108,6 @@
     width: 100%;
   }
 
-  div.duck__pictures {
-    display: flex;
-    flex-flow: column;
-  }
 
   div.duck__pictures img {
     max-width: 300px;
@@ -119,4 +115,21 @@
   }
 
 
+    div.duck__25 {
+      max-width: 228px;
+      width: 25%;
+    }
+
+    div.duck__price {
+      max-width: 500px;
+    }
+
+    h1.duck__headingfin {
+      font-size: 36px;
+    }
+
+    p.duck__textfin {
+      width: 100%;
+      font-size: 16px;
+    }
 }

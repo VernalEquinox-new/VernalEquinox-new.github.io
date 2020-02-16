@@ -307,7 +307,7 @@ div.duck__rouen {
 
 section.duck__tan {
   background:  url('../img/duck7.png') no-repeat,
-               url('../img/duck8.png') no-repeat 100% 0;;
+               url('../img/duck8.png') no-repeat 100% 0;
   background-color:#e1dccf;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -351,8 +351,8 @@ div.duck__inputbox {
 input.duck__input {
   border: none;
   outline: none;
-  width: 80%;
   background: none;
+  width: 80%;
   border-bottom: 3px solid #c38b70;
   border-bottom-left-radius: 1.5px;
   border-bottom-right-radius: 1.5px;
@@ -360,8 +360,11 @@ input.duck__input {
 
   font-family: OpenSans;
   font-size: 18px;
-  line-height: 1.11;
-  text-align: right;
+  line-height: 1.6;
+}
+
+input.duck__input::placeholder {
+
   color: rgba(86, 86, 86, 0.32);
   text-align: left;
 }
@@ -375,6 +378,122 @@ button.duck__plane {
   width: 46px;
 
   position: relative;
-  left: -4px;
-  top: -5px;
+  left: -5px;
+  top: -1px;
+}
+
+section.duck__fin {
+  background: url('../img/duck9.png') no-repeat 0% 0%,
+              url('../img/duck12.png') no-repeat 0% 50%,
+              url('../img/duck14.png') no-repeat 0% 100%;
+  background-color: #f3f3f3;
+}
+
+section.duck__fin div.row {
+  padding-top: 140px;
+
+}
+
+div.duck___25 {
+  width: 25%;
+}
+
+img.duck___imgwidth {
+  width: 100%;
+}
+
+div.duck__price {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: relative;
+  top: -28px;
+}
+
+h1.duck__headingfin {
+  font-family: WorkSans;
+  font-size: 63px;
+  font-weight: bold;
+  line-height: 0.32;
+  text-align: center;
+  color: #384464;
+}
+
+div.duck__headingsfin {
+  padding-left: 5%;
+}
+
+span.duck__heading2fin {
+  font-family: WorkSans;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 0.4;
+  text-align: center;
+  color: #c38b70;
+}
+
+span.duck__heading3fin {
+  font-family: WorkSans;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 0.4;
+  text-align: center;
+  color: #c38b70;
+}
+
+p.duck__textfin {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: #565656;
+  padding: 36px 0 36px 0;
+}
+
+div.duck___duck11img {
+  position: relative;
+  top: -50px;
+}
+
+div.duck___duck13img {
+  position: relative;
+  top: -10px;
+}
+
+div.footer {
+  background-color: rgb(46, 66, 101);
+}
+
+div.footer__duckspace {
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.302);
+  line-height: 1.25;
+  text-align: left;
+  width: 25%;
+}
+
+div.footer__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 59%;
+}
+
+div.footer__menu a:link {
+  font-family: "WorkSans";
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div.footer__menu a:hover {
+  border-bottom: 2px solid  #ffffff;
+  color: #ffffff;
 }
