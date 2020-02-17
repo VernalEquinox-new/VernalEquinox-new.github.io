@@ -20,44 +20,17 @@
     outline: none;
   }
 
-  div.menu__wrap{
-    position: absolute;
-    visibility: hidden;
-    top: 65px;
+  div.menu__wrap {
+    display: none
+  }
+
+  div.menu__open {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 4px;
-
-    padding: 8px 48px 8px;
-    background-color: #e1dccf;
-    box-sizing: border-box;
-
-    width: 320px;
-    z-index: 0;
-    transition: all .3s;
-    transform: translateX(100%);
-    opacity: 0;
+    order: 2;
+    line-height: 2;
   }
-
-  .menu__wrap > a {
-      line-height: 2;
-      transition: all .3s;
-      border-bottom: 2px solid transparent;
-  }
-
-  .menu__wrap > a:hover {
-    border-color: #384464;
-  }
-
-  button.hamburger:focus + div.menu__wrap {
-    visibility: visible;
-    display: flex;
-    flex-direction: column;
-
-    transform: none;
-    opacity: 1;
-}
 
   section {
     overflow: hidden;
