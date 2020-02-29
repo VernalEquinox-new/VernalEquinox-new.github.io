@@ -361,7 +361,7 @@ input.duck__input {
 
   font-family: OpenSans;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 2.3;
 }
 
 input.duck__input::placeholder {
@@ -380,7 +380,7 @@ button.duck__plane {
 
   position: relative;
   left: -5px;
-  top: -1px;
+  top: 6px;
 }
 
 section.duck__fin {
