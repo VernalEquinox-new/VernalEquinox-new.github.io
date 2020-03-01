@@ -1,56 +1,70 @@
 @media (max-width: 768px) {
-  header {
+
+  header.site__header {
     overflow: hidden;
-  }
-
-  header div.container div.row {
-    padding-left: 32px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  div.header__menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 32px;
-  }
-
-  button.hamburger {
-    outline: none;
-    display: flex;
-    flex-direction: column;
-  }
-
-  div.menu__wrap {
-    display: none
-  }
-
-  div.menu__open {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    order: 2;
-
+    max-width: 768px;
+    width: 100%;
   }
 
   section {
     overflow: hidden;
     max-width: 768px;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   div.container {
+    max-width: 736px;
     width: 100%;
-    margin: 0;
+    padding: 0px 16px 0px 16px;
+    overflow: hidden;
   }
 
+  header div.container div.row {
+    max-width: 736px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  div.header__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 16px;
+  }
+
+  button.hamburger {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    order: 1;
+  }
+
+  div.menu__wrap {
+    display: none;
+  }
+
+  div.menu__wrap--open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    order: 2;
+
+    position: fixed;
+    top: 70px;
+
+    transition: all .4s ease-in-out;
+    transition-delay: 0.2s;
+  }
+
+
   section.hero div.container div.row {
+    width: 100%;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .duck__centerimg {
@@ -69,8 +83,9 @@
   }
 
   h1.duck__heading {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    margin: 0;
   }
 
   section.duck__white {

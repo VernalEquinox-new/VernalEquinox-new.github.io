@@ -2,12 +2,14 @@
 
   section {
     max-width: 425px;
-    padding-left: 8px;
-    padding-right: 8px;
+
   }
 
   div.container {
-    width: 92%;
+    max-width: 288px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .duck__centerimg {
@@ -25,6 +27,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .duck__line {
